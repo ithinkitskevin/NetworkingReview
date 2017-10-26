@@ -1,0 +1,55 @@
+Connectors - A device for plugging into port or interface to connect to other device. 
+EXAMPLES:
+RJ-11 Register Jack -> Four wire connectors (four wires inside the jack)
+    Usually for telephone jack, but for wireless, they connect to modems to computers. Has a hinged locking tab to lock into place. Resembles RJ-45
+RJ-45 -> Eight wire connectors. 
+    Most common network connector, and used with unshielded twisted pair cabling (UTP). They are commonly used to attach network interface card to hubs or switches. RJ-45 is larger than RJ-11...
+RJ-48C -> SAME THING AS RJ-45... BUT
+    Used with PROTECTED (Shielded) twisted pair (STP) cabling. Primarily used with T1 lines and wired differently than RJ-45.
+
+UTP vs STP
+Obvious... STP has additional shielding material so that it can cancel any external interference that might be introduced at any point in the path of the cable...
+
+SN: T1 line can carry about 192000 bytes per second, which is roughly 60 times more data than your usual normal residential modem. They are faster due to Fiber Optic Line. 
+UTP coupler connects UTP wire to the RJ-45. Typically used when running longer cable is not an option... Just makes the UTP wire longer.
+
+BNC connector Bayonet Neill-Concelman connector connects RF connectors. Usually for analog and digital video as well as audio.
+
+Analog - Waves of data that is demodulated/interpreted with diodes. But it can be interferred very easily... Can not be copied easily and will easily degrade.
+Digital - 1s and 0s of data, due to either 0 or 1 waves, it can not be interfeered very easily. Can be copied easily and not easily degradable
+
+BNC coupler - Connects two coaxial cables with BNC connectors. BNC is a female to female coupler...
+
+Fiber coupler - Connects two same fiber optic connectors. 
+DON'T GET CONFUSED WITH FIBER ADAPTER 
+Fiber adapter - Used to connect two DIFFERENT fiber optic connectors. 
+
+There are alot of fiber connectors (see fibercable connectors.gif)
+
+F-Type Connector - Threaded connector used for coaxial cable. This screw on connector is usualy used for cable providers for cable modems. Tightended by attached nut.
+
+USB connector - Two types, Type A and Type B. Type A is the USB with four wires and Type B is USUALLY two wire. (Type B is generally smalle)
+
+IEEE 1394 - AKA FireWire - D shapped ending, usually used for digital cameras/printer (multimedai/video devices) rather than network connection.
+
+MT-RJ - Mechanical Transfer Register Jack - Fiber Optic Connector. Instead of the screw connector or latched connector, it uses latched push-pull connector. This small form factor used, for high packed density.
+
+ST - Straight Tip - Half twist/Bayonet type of lock. Used commonly with single mode fiber optic cable.
+
+LC connetor - Local connector - Uses a jack similar to RJ-45 Style and commonly used between floors on a building 
+    Push-Pull connector 
+
+SC connector - Standard Connector - Uses push pull connector. Commonly used between floors on a building. 
+    AKA Square Connector (looks like a square)
+    Second Most Common
+
+SC - Mainstream, reliable, fast deployment, field fit. Wider spread then LC
+LC - High Density, cost effective, field fit. Half the size of SC, so common in central offices.
+ST - Used for durability, so it's common in places such as campuses. 
+
+RS-232 Connector - Recommended Standard - Used to transmit using serial refers. Serial refers is sending data one bit at a time. 
+    Common Form of RS-232 is DB-9 and DB-25 (9 cable vs 25 cable)
+
+APC vs UPC connectors
+UPC connectors - Due to the imperfect surface area at the tip of the optic cable, the tip can have small area between them. Thus, light can be reflected back, causing signal loss.
+APC connectors - This connector fixes this signal loss by having a slight tilt between each tip where the connection is made. So the light is tilted to the wall of the cable, thus reducing signal loss.

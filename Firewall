@@ -1,0 +1,34 @@
+Firewall
+Either software or hardware, it is designed to prevent unauthorized outside access from entering the network by blocking unwanted traffic and permiting wanted traffic.
+
+ACL - Access Control List
+List of access control entries. ACL will identify trustee while blocking unwanted. 
+Two types of ACL
+DACL - Discretionary Access Control List - Identifies trustes that are allowed or denied access to a securable object.
+    The system will check the ACE (access control entries) of a process to determine whether to grant access.
+SACL - System Access Control List - Enables admin to log attempts to access a secured object. For security reason.
+
+Implicit Deny - Denies every avery traffic, unless it is explicitly allowed
+
+Types of Firewall
+Host Based:
+    Software Firewall, Installed on a computer and works only in that computer. 
+Network Based:
+    Combination of Software and Hardware, working on the network layer. Placed between private network and the devices on the network. Works through management rule, so that any harms can be detected before doing any damage and blocked.
+
+Stateful vs Stateless
+Stateful Firewall - Monitors ALL the connections and data streams that are passed thorugh and keeps a record. Does a through job of protecting a network dynamically. 
+Stateless Firewall - Does not do a thorough job, but only uses an ACL to allow or deny traffic. Not only that but it does not keep a record. AKA flow-based firewall
+
+So why do we still keep stateless firewall around? 
+PRO: stateless firewall is pretty cheap, doesn't need much CPU or Memory to match traffic to the policies, so it'll perform better with heavier traffic loads. But it is definately less secure than a stateful Firewall. Stateful Firewall are better at identifying unauthorized or forged communications.
+
+Content Filtering - Used in email
+Filters data based on their content, and to filter email spam
+
+Signature identification - Another content filter, used to detect viruses with well-known behavior pattern. Firewall feature. 
+
+IDS/IPS - Put between the internet and firewall. 
+IDS - Intrusion Detection System - Detects outside attacks
+IPS - Intrusion Prevention System - Prevents outside attacks
+They will prevent attacks like viruses, malware, and hacks by monitoring traffic through network looking for suspicious pattern.

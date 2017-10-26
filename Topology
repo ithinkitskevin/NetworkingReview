@@ -1,0 +1,50 @@
+Topology - Layout of how network communicates with devices
+Types of Typology
+    Star Topology - Most common
+        - All devices are connected to one central wiring point (hub, switch)
+        -All devices come to this central wiring point
+    Pro: One device with malfunctioning connection will not mess up any other devices
+    Con: If the central wiring point fails, then all devices would be affected
+        -This is called Single Point of Failure
+    Bus Topology - Very old... Not used that much any more...
+        -Network setup that has each computer and network devices are connected to a single cable/Backbone
+            -This single cable/backbone is called Coaxial Cable
+
+SN: Coaxial Cable is a copper cable with metal shield that blocks signal interference. It is not used primarily by cable TV companies to connect satellite antenna or sometimes telephone.
+
+        -Computers connect to this cable using BNC (or T connector). 
+    Pro: Cheap and easy to implement
+    Con: Each end needs to be terminated using a terminator
+        -If one of the ends, or ends of a computer is not connectd, then the cable would become open and data would bounce back.
+        This is called Signal Reflection -> data flow would be interrupted...
+
+    Ring Topology - All computers are connected to each other. 
+        -Each computer has a neighboring computer that sends data packets to one another until it comes to the receiver.
+        RARELY USED
+    Pro: Easy to implement and easy to troubleshoot
+    Con: If one goes down or a small break in the ring, then the data flow would be interrupted.
+
+    Mesh Topology - Each computer is connected to every other computers in the network. 
+    - By having alot of connections, it's reliable BUT it's expensive...
+    -Due to it's cost, it's not used for lan but used for wan (like the internet). Causes high redundancy level -> If one connection fails, it can stil talk to each other.
+
+There is also Hybrid Topology
+    -Combination of different topologies
+Alot of businesses uses hybrid topologies
+    ex) two common ones are star bus network and star ring network
+    Star bus network - Two or more bus network are connected using a single bus connection
+    Star ring network - Two or more ring network are connected using a single ring connection
+
+Point to Point topology - Two hosts that are connected to each other using one connection
+    -The hosts can be computers, switches, servers, etc...
+Simplest form of topology
+
+Client Server Topology - Where computers or devices (client) connect straight to a server to access resources RATHER than connecting to each other.
+    -A lot of businesses uses this topology, as you don't need to put all the resouces on each computer.
+    
+Point to Multipoint Topology - Used mainly for outside networking. 
+    -There will be a Centeral Wireless Base Station with other wireless station connected to the base. THE OTHER STATIONS WILL ONLY COMMUNICATE TO THE BASE INSTEAD OF EACH OTHER. These other station is called the client and the base station is called... Base station (wow) or Access Point
+
+Peer to Peer topology - Peer can talk to other peers. For example, one of the peers can have all the files while another peer has a printer. They just connect with each other, so they're easy to set up. 
+Peer to Peer topology vs Mesh Topology
+Peer to Peer network is just a connection between pair of devices. But in Mesh Topology, each network functions as a router. This routing layer allows you to directly address nodes that you are not directly connected with... Also Peer to peer topology doesn't have a centralized server. 

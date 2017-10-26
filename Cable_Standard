@@ -1,0 +1,46 @@
+Cable Standards
+Plenum vs Non-Plenum
+Plenum are areas where there are open air spaces instead of Non-Plenum areas where it has air vents that controls these air spaces. Why do we care though? We care since Plenum areas, due to air space, will have a bigger fire hazard. THUS, specific requirements have to be met when you put cables near them. 
+
+FIRST - The wires should be more fire resistance
+SECOND - The wires should NOT produce toxic fumes when they are burned
+
+Ethernet over HDMI 
+HDMI cable, specifically HDMI 1.4 specification, adds networking to the HDMI cables. Thus, it'll send 100MB/sec of data as well as video AND audio (WOW).
+
+Ethernet over powerline
+Sometimes in your home or office, you want a specific area where you want network. And you can't do network cabling or wi-fi due to building structures or some thing. SO you can use electrical system in the building to give ethernet. So Ethernet over power line gives ability for ethernet networking over power. You do this by using Powerline Network Adapter, which you can plug into the power outlet to the computer with no internet, then you can plug in another Powerline Network Adapter to another power outlet to a modem.
+
+Cable Standards
+Each cable has a standard with Speed, Type and Media. 
+    ex) 10Base-T
+        10 is the maximum speed, which is 10 megabyte per second. Type is the baseband transmission, and T is twisted pair cable.
+    ex) 10Base-2
+        10 Mbps is speed, 200 meters is the length, and it's a thin ethernet that uses coaxial cable.
+    ex) 100Base-T
+        100 Mbps is speed, uses UTP cat 5 or higher, maximum length of 100 meters, and also known as fast ethernet. 
+    ex) 100Base-FX
+        100 Mbps is maxumum speed, and FX uses fiber optic cable.Maximum length is 400 meters for half duplex and 2 kilometers for full duplex
+
+Oh yeah, some information you should know...
+Simplex vs Duplex
+Simplex has a single strand of glass of plastic fiber. This single strand is used to both transmit and or receive data. But Duplex has a two strands of glass of plastif fiber, of which one is for transmit and the other is to receive data. 
+Cool, back to cable standards...
+    ex) 1000Base-T
+        Maximum is 1000 mbps and uses UTP cat 5 or higher. The maximum length is 100 meters. Uses 4 singular directional pairs of wires.
+    ex) 1000Base-Tx
+        Similar 1000Base-T, BUT has 2 unidrectional pairs of wires for communication. Never caught on and is a failure in commercial implementation. 
+    ex) 10GBase-T
+        10000 mps maximum, uses both STP and UTP cabling, maximum length of 100 meters (cat 6a) while maximum length for cat 6
+    ex) 10GBase-SR
+        SR stands for short range. Commonly used standard multimode fiber specification. Has maximum length of 300 meters.
+    ex) 10GBase-ER
+        ER stands for extended range, and has maximum length of 40 kilometers with single mode fiber
+    ex) 10GBase-SW
+        Same specs as SR, but specifically used SONET (Synchronous Optical Networking). (WAN)
+
+SR is used mainly with Dark Fiber -> unlit fiber which is not connected to any equipment. While SW is used for Sonet
+
+SN: Multi-mode Optical Fiber is type of fiber mainly used for communication over short distances (like building or campus). 
+Single Node vs Multi Node 
+MultiNode, due to the larger diametral core, allows multiple modes of light to propagate further. Thus, more data passes over. But due to the high dispersion and attentuation rate, the quality of signal fades over long distance.
