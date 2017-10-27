@@ -1,0 +1,45 @@
+Network Components
+Upstream - Data sent from computer to network
+Downstream - Data received to computer from network
+DOCSIS - Data Over Cable Service Interface Specification - a standard used to provide internet access. Provides a common method for products to work together in a common, predictable manner. 
+DOCSIS Modem - Handels upstream/downstream data to the internet. Docsis 3.1 supports 10 Gigabit downstream and 1 Gigabit upstream
+
+BTW, a router allows multiple devices to connect to a same network while modem provides the devices the networking.
+
+Hub - Has multiple ports for ethernet connections. NOT INTELLIGENT, AS IT DOES NOT FILTER ANY DATA, AS WELL AS COPYING DATA TO ALL PORTS. 
+Three types of hub
+Passive Hub does not need power. 
+Active hub requires power. Strengthhens signal as it enters/exits hub. AKA repeaters, or just hubs
+Smart Hub - Similar to active hub, but contain management software to help determine possible network probelms/isolate them. Also, it can contain protocols like SNMP (Simple Network Management Problem)
+
+Switch
+Similar to hub, accepts networking from ports. BUT Switch are intelligent, as it can learn the Physical Address of devices and store them in a table. So data is sent directly to it's intended port and not through every port like hub. So People choose over switch rather than hub. (Switch only works in Data Link Layer)
+Multilayer Switch - Interpret both layer 2/3 data.
+Content Switch - Can operate layers 4 through 7, and can perform load balancing as well as advanced filtering. 
+
+PoE - Power over Ethernet
+Some switches/hubs can get their power from the ethernet cable. 
+
+Spanning Tree - Fault tolerant (Enables system to run even if there is a failure in one of its component).A tree of switches so that if a switch fails, the data can bypass the failed switch and uses others to get to their destination. But broadcast loop can happen. Meaning that there might be excessive traffic goin on from a switch to a switch, slowing down the internet. To solve this problem, Spanning Tree Protocol was introduced.
+
+Spanning Tree Protocol - Allows for fault tolerance as well as preventing unneccesary traffic loops in network.By allowing switches to talk to each other when a loop is happnening.
+
+Bridges - Divide network into spereate domain, If there are hubs (gross) in a network going on, the traffic might cross over to every computer. So a bridge will come between the hubs and using the destination MAC addresses, it'll filter the traffic. Bridge will keep track of all MAC addresses, so when a packet has a from a different hub section wants to crossover, the bridge will allow it. 
+
+Router - Routes or forwards data from one network to another based on their IP addresses. Inspects the packet, and if the packet (using their dest IP address), meets the router's criteria, then it'll send it to the computer. ELSE, the router will send the packet to the destination network it was supposed to go to.
+
+Gateway- Device that joins 2 networks together.
+Interconnect network with different or incompatible protocols by changing the format of the data. 
+
+CSU/DSU - Channel Service Unit/Data Service Unit - Converts data from a LAN to a WAN.
+
+NICs - Network Interface Card - Circuit board with network adapter in your computer. Converts Serial Data to parallel data so that the computer can understand it. Each NIC has it's own MAC address.
+
+Transceivers - Device that has both transmitter and receiver
+Term used for any kinds of devices that receives data, converts it, than transmit the data. 
+ex) Computer, phone, you get it.
+
+WAPs - Wireless Access Point
+Basically a wireless hub. Connects to wireless network then connects to a wireless device. 
+
+Modem - Previously mentioned, a modem connects to an internet. But it does this by connecting to a telephone line, getting the analog data, then converting it to digital form. Maximum speed for your usual modem is 56 Kbps (which is 0.056 Mbps). 

@@ -1,0 +1,22 @@
+Media Types
+CrossTalk - Signal transmitted from one circuit/channel creates undesired effect in another circuit/channel. It can be caused by electromagnetic interference
+Cable Categories - There are different cable categories, all seperated by maximum speed they can handel without any crosstalk. Number of the categories represent the tightness of twist.
+
+Category 3 (old) -> 10 Mbps -> 10Base-T
+Category 5 -> 100 Mbps -> 100Base-T&Tx
+Category 5e -> 1000 Mbps -> 1000Base-T
+Category 6 -> 1000 Mbps -> 1000Base-T -> Same as 5e, but it can also be used for 10GBase-T (as long as it's under 100 meters) as well as being more durable than category 5e
+Category 6a -> (a for augmented) -> 10000 Mbps -> 10GBase-T can support bandwith frequeincies upto 500 MHz, twice of 6
+
+UTP Cable - Learned from previous chapters - Mainly used for LAN
+The reason why the cables are twisted is to prevent electromagnetic interference (aka crosstalk)
+STP Cable - The shielding adds layer to both deny any electromagnetic Interference from coming out as well as any EMI from coming in.
+Coaxial Cable - Used mainly for broadband internet conection. (Broadband is wide band of frequencies able to transmit info). It was used as a backbone for networking, for like BUS Topology. 
+Two types of Coaxial Cable
+RG-6 -> Made for long distances and is commonly used for cable television as well as internet connection. Has better shielding, thicker insulation and heavier AWG (American Wire Gauge)
+RG-59 -> Made for short distances and is commnonly used for HD/HQ Video. Has less sheilding, thinner insulation and lighter AWG.
+
+SMF - Single Mode Fiber - Light only enters at single angle - Can span for long distance
+MMF - Multimode Fiber - Light reflects off the wall of the cable - Made for short distances
+
+Media Converter - Convert different types of media, such as Single/Multi Fiber to Ethernet, Fiber to Coaxial, Single to Multi Fiber (Very Useful!!)

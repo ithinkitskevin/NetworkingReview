@@ -1,0 +1,21 @@
+Wiring Standards
+    -Developed by TIA/EIA
+    -Defined the rules on how twisted pair cables should be connected to RJ-45 connectors.
+        How a wire should be lined up/ordered
+
+ex) 568a Wiring Standards should be ordered by...
+    White/Green -> Green -> White/Orange -> Blue -> White/Blue -> Orange -> White/Brown -> Brown
+
+ex) 568b Wiring Standards order
+    White/Orange -> Orange -> White/Green -> Blue -> White/Blue -> Green -> White/Brown -> Brown
+
+Although, there is no difference in functionality of which wiring standards you use... But you know, more you know...
+
+Using these standards order, you can dictate rather or not they are Straight-Through Wired Cable or Crossover Cable
+Straight-Through cable - Have the same wiring standards, so all pins (order) are the same. Allows signal to pass straight end to end.. Used commonly to connect computers to hubs, switches or modems. 
+
+Cross-Over cable - Two cable have different standards. Used to connect two similar devices, like computer to computer or hubs to hubs. Not only that, but it's very commonly seen in telephone company, as when you're speaking, you want the speech from microphone to go to the ear piece, and vice versa.
+
+RollOver cable - Used when both ends are wired completely opposite of each other. Commonly used to connect computer/terminal to router's console port. 
+
+Loopback Cable - Test purposes. To make the computer think that it's connected to a network. Connect pin 1 to pin 3, pin 2 to pin 6.
