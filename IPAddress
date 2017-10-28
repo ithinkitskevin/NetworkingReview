@@ -1,0 +1,42 @@
+I.P. Address
+Internet Protocol - Numeric address which is an identifier for a computer or device on a network. Consists of two parts.
+Network Address (subnet mask)
+Host Address 
+We'll look at these two parts later on...
+Two types of IP addresses
+IPv4 - Current version, 32 bit numeric address writen as four numbers seperated by periods. Each group seperated is called octet. The number range of octet is 0-255. Each octet is an addition of 8 bit (1,2,4,8,16,32,64). You can tell by using binary, which means 0 is not counted while 1 is counted. So 192 is (128*1 + 64*1 + 32*0 + 16*0 + 8*0 + 4*0 + 2*0 + 1*0) = 192. This accounts for all four octet.
+IPv6 - Next generation of IP addresses. The main difference is the length, which is 128 HEXADECIMAL (so 0-9 and A-F) bit address. The address amount is almost limitless (340 undecillion).
+Consists of 8 sets of 16 bits.
+
+Let's look at an example to really understand what the two parts of IP address - 192.168.1.13
+Subnet mask - Network Address -> 192.168.1
+    What a subnet mask will do is determin if the host is on the local subnet or remote network. Not only that, but using this, we can tell what class the IP address is. 
+
+N = Network Address
+H = Host Address
+
+Also, Network Address (The N below) octet will be replaced by 255 as default subnet mask
+
+There are Five classes of PUBLIC IP addresses
+
+Class A- Class A networks are mega monster networks with up to 224 nodes 16 million plus. Class A networks have their network addresses from 1.0.0.0 to 126.0.0.0, with the zero's being replaced by node addresses.
+NNNNNNNN.HHHHHHHH.HHHHHHHH.HHHHHHHH
+-Used for large business
+
+127.0.0.1 - Used for loopback testing
+
+Class B- Class B networks are smaller networks in comparison they can have only about 65,000 nodes! Network addresses for these ranges from 128.0.0.0 to 191.0.0.0. Here the last two zeros get replaced by the node addresses.
+NNNNNNNN.NNNNNNNN.HHHHHHHH.HHHHHHHH
+-Used for medium business
+
+Class C- These are the baby networks that can have only 254 nodes at the maximum. The network IP addresses for these range from 192.0.0.0 to 223.0.0.0.  
+NNNNNNNN.NNNNNNNN.NNNNNNNN.HHHHHHHH
+-Used for small business
+There are two more classes (D,E)
+
+If you have public IP, you have access to Internet. BUT Private IP is not publicly registered, and WILL NOT directly gain access the internet. Private IP will be able to gain internet usage through a public IP address. The private IP address will be translated to Public IP address and will save you money. 
+
+There are different classes of Private IP address (Three classes)
+Class A - Range:10.0.0.0 - 10.255.255.255 - Subnet Mask:255.0.0.0
+Class B - Range:172.16.0.0 - 172.31.255.255 - Subnet Mask:255.255.0.0
+Class C - Range:192.168.0.0 - 192.168.255.255 - Subnet Mask:255.255.255.0

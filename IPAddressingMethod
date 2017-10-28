@@ -1,0 +1,18 @@
+I.P. Addressing Methods
+There are two ways methods of assigning IP address 
+Dynamic IP Addressing Method - Gets IP address from DHCP (Dynamic Host Configuration Protocol) server, which will assign the computer not just the IP address but its subnet mask, default gateway, dns server. Best choice, as it makes managing network alot easier.
+Static IP Addressing Method - Manually assign your own IP address. No need to go to DHCP server. 
+Self-Assigned (Obtaining an IP address by itself) - It will do APIPA (Automatic Private IP Address Assignment). But what if DHCP server is down or the connection becomes broken? If that happens, then the computer will assign its own IP address using APIPA for Windows 98 to higher. If DHCP server is later available, then the computer will connect to it and get the IP address.
+
+Usually your ISP (Internet Service Provider) would be running a DHCP server that gives you public addresses, and your router would be running a DHCP server that gives you private addresses (and route all traffic through the IP it got from the ISP's DHCP server).
+
+Scope - Group/range of conescutive IP addresses for computers that get their IP addresses from DHCP server. 
+
+Reservation - making a reserveration that will ensure a specific device (made sure by its MAC address) will always be given the same IP address when asked by the DHCP server. Not regulary given to computers, but given to devices such as network printers/servers that require same IP address. 
+
+Lease - Assigns an IP address as a lease (so a computer doesn't own the IP address). SO a lease is the amount of time an IP address is assigned to a computer. 
+
+Since broadcast can not go on a different subnet/(different IP address setting) (like if DHCP server is on a IP address 192.168.0.2 and a router is on a IP address 192.168.0.1), then the DHCP server will not get the IP address request from the computer. But if DHCP server ad the Router is on the same subnet (same IP address setting), then it'll get the request. This is what DHCP Relay will help with if broadcast is on different subnet. 
+DHCP Relay - Happens in the router - AKA (IP Helper) - The Router will forward the IP Address Request to the DHCP Server, and the Computer will get similar subnet as the Router. 
+
+BTW, side note. Computerrs and DHCP server can not talk directly to teach other due to Vlans (Virtually Isolation), as Vlans create isolated segment of physical network. 

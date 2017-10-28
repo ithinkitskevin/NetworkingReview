@@ -1,0 +1,21 @@
+OSI Model
+Open Systems Interconnect Model - Standard used for network communication to take place. How information from a software in one computer moves to another computer. Breaks down the data communication in seven layers.
+Goes like 
+    7. Application
+    6. Presentation
+    5. Session
+    4. Transport
+    3. Network
+    2. Data Link
+    1. Physical
+Data flow will move like this...
+A computer (sender) will send the data by having the data move from 7 (Application) to 1 (Physical). Then the data will go through the internet and will go from 1 (Physical) to 7 (Application).
+
+7. Application - This layer manages communications between applicaion. Supports protocols such as SMTP, HTTP, FTP. Data is still somewhat readable in this layer. 
+6. Presentation - This layer is where data is converted into a form that can be sent over a network. Data, in this layer, is compressed/decompressed or encrypted/decrypted. AKA translation layer 
+5. Session - Controls the network by establishing, managing, and terminating connection between local and remote application. 
+4. Transport - Provides the transfer of data between end users, by resending any packets. This layer is the layer that guarantes that packets are received. 
+3. Network - This layer is resposnsible for routing the data packets to its ip address. Fragments/reassembles packets and instructs data of how to get to its destination (ip address)
+2. Data Link - Responsible for sending data ot the physical layer, and where data packets are encoded/decoded into bits. Handles flow control (management of data flow so it doesn't cause data overflow 
+(which will mean data needs to be retransmitted due to loss of data)). This layer is divided into two sub-layers - Media Access Control Layer (handles MAC addresses) or Logical Link Control Layer(LLC, the layer that checks controls frame synchronization, flow control and error checking.) 
+1. This layer defines the network standards/physical characteristcs of network. Ex) Connectors, media types, cables... This layer is the layer that defines the topology of a network. 

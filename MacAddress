@@ -1,0 +1,11 @@
+Mac Address
+Media Access Control (AKA Physical Address)
+Used to uniquely identiy each device on the network
+Six byte Hexadecimal Number (xx-xx-xx-xx-xx-xx) butrned into every NIC
+Contains 0-9 A-F... You know, cause it's hexadecimal...
+Broken up into two parts. 
+The first three bytes (00-00-00-xx-xx-xx)
+    Identifies the manufacturer of the NIC
+Last three bytes (xx-xx-xx-00-00-00)
+    Uniquely identifies each devices
+That's it... I mean, on the side note, MAC addresses are used in the Media Access Control (guess why) sublayer in the OSI model. It is also very easy to "imitate" MAC addresses, macchanger
