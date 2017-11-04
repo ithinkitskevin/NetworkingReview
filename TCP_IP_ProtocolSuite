@@ -1,0 +1,69 @@
+TCP/IP Protocol Suites
+Oh yeah, TCP is Transmission Control Protocol
+Connection-Oriented Protocol - Cares about the connection. If the connection fails, it'll resend. Does this by three way handshake
+Three-way Handshake 
+1. SYN - The computer will send Synchronization message
+2. SYN ACK - The receiving computer will sent Synchronization Acknowledgement 
+3. ACK Received - The initial computer will then send Acknowlgement Received right back
+
+Once all this has taken place, data transfer will take place. So if a data packet goes missing, the receiving computer WILL let the sending computer know and the sending computer will retransfer the data packet. 
+
+UDP - User Datagram Protocol - Unlike TCP, it's connectionless Oriented protocol. Doesn't care if the receiving computer receives all data packets, the sending computer will just send information and doesn't care. 
+Faster cause it doesn't care. 
+
+FTP - File Transfer Protocol - Standard Protocol used by web users for file transfers
+Users download/upload files through internet.
+Transfer can be done using web browser or FTP software 
+TCP (FTP is connection-oriented)
+
+TFTP - Trivial File Transfer Protocol
+-Simple protocol that's not used over internet
+Used for transferring files within network
+UDP (TFTP is connectionless)
+
+SFTP - Secure File Transfer Protocol 
+Similar to FTP but adds layer of security using secure shell during transfer. So data is not sent in clear text
+
+SMTP - Simple Mail Transfer Protocol
+Sending email... TCP... 
+
+POP3 - Used for receiving email
+Post Office Protocol Version 3
+Whenever email is sent, it'll go to a Mail Server. There, you'll use POP3 to retrieve the mail and download it.
+DOES NOT SYNC, JUST DOWNLOADS EMAIL. NO COPY OF THE EMAIL IS REMAINED ON THE MAIL SERVER (unless specified to do so) 
+
+IMAP4 - Internet Message Access Protocol Version 4
+Receives email but better than POP3. You can access/manage your mail server. Nt only that, but it syncs emails and folders between mail server and your computer. 
+
+HTTP - Hyptertext Transfer Protocol 
+You use it to go to a web server and go to websites
+Your data sent is NOT encrypted/secure. 
+
+HTTPS - Secure Hypertext Transfer Protocol
+You use it to go to a web server, and will encrypt all data retrieved by the Web Server.
+
+Telnet - Terminal Emulation Program
+NOT SECURE, JUST USE SSH. All commands are sent in clear text. Use Telnet to use within local network.
+
+SSH - Secure Shell
+SSH acts like a tunnel, securing your data from being listened in. 
+Uses cryptographic keys for both client and server side, then while the data is in the tunnel, the data will be encrypted IN the tunnel and will be decrypted on the other end. 
+
+ARP - Address Resolution Protocol
+Resolve IP address to MAC address. Computers use MAC addresses for communicating. So if a computer wants to talk to another computer, then the computer will search its ARP cache to find the target MAC address. If it doesn't, then the computer will broadcast will send a message with the IP address asking for the MAC address. Then the target computer with matching IP address will respond back, then the original computer will ask for MAC address for the target computer, then they will now be able to communicate. 
+
+RARP - Reverse Address Resolution Protocol
+LITERALLY THE OPPOSITE OF ARP
+Resolve MAC address using IP address. 
+
+NTP - Network Time Protocol
+International standard - Used to synchronize clocks of computers with the U.S. Naval Observatory Master Clock.
+Periodically calls to make sure time is in sync
+
+SCP - Secure Copy Protocol
+Uses secure shell to safeguard data as it is being transferred over network. 
+
+SNMP - Simple Network Management Protocol
+Used for network management, collects data from various network devices (routers,printers,servers)
+-Also used for modifing that information to change that device behaviour.
+

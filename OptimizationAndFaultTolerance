@@ -1,0 +1,59 @@
+Optimization & Fault Tolerance
+Bandwidth Sharper - Used to control Network Traffic
+    - control upload/download rate to some activites, like recreational needs rate's upload and download can be low while rate for anything work-related can be high
+
+Traffic Shaping - Same as Bandwidth Sharper
+    - Prioritizes Applications and guaranteses bandwidth for more important services
+
+Load Balancer 
+    - Hardware/Software to evenly distribute data activity across network so no servers/compuers become overwhelmed.
+        So if a server is becoming overwhelmed, then we can get a load balancer so that both servers have balanced network activity
+
+QoS - Quality of Service
+    - Term used to provide guarantee of data deliver within a certain period of time
+
+Port Blocking
+    - Done on a firewall for a bit more security
+    - As Net Admin, you can control which ports are open/close
+
+High Availability - Term used to guarantee a period of uptime for continual operation
+
+Power - Fault Tolerance
+    - Power outage can cause some devices to shut off. So you'll need a device like a UPS (Uninterrupted Power Supply)
+    UPS - Protects agains surges/spikes as well
+
+Link Redundancy
+    - Having continous connection to network in event of failure
+    - Have ISDN line as a backup
+    - Have primary/secondary NIC
+
+Backup Services
+    - Standby server is secondary server with exact configureation as the primary
+        - So if primary server fails, then the standby server will take over
+    - Server CLustering - Groups of servers working together for load balancing and fault tolerance
+        - Works best when servers are in different geographical location - So if an earthquake destroys a server, then the other servers will be alright
+
+Disaster Recovery 
+    - Fault Tolerance - Defined as prevention of data loss if network component fails
+        - But what would happen when fault tolerance fails?
+    - Disaster Recovery is the process of rebuilding an oranizations after data is lost
+
+Three Types of Backups
+Full - Full backup is when data is backed up in one tape.
+    - But what if there's alot of data? It would take forever to finish backing up!
+Incremental - Includes all data that has been changed since the last full or incremental backup
+    - So day by day, backup can happen for that weekday as an example. Archive bit - The way incremental data backup knows which data has been changed
+So to restore in a incremental backup, you'll first have to restore the full backup (that might have happened on a weekend) then the incremental backup (in correct order)
+Differential - Data that has backed up since the last full backup
+So an example, a full backup happens on weekend. Cool. So now on Monday, there will be a backup. THen tuesday backup will include backup from both monday and tuesday. THen wednesday backup will have both monday, tuesday and wednesday. And so on.
+Differential backup does not clear archive bit
+Full backup + last differential backup will restore everything
+
+Offsite storage - storage located in different location
+
+Hot spares - Equipment that can be swapped out without need of turning off the power
+
+Cold Spares - Equpiment that has to be turned off before sqapping out any equipments
+
+
+

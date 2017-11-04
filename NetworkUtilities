@@ -1,0 +1,50 @@
+Network Utilities
+Ping - Yeah... Used to name resolution/network connectivity
+Request Timed Out - Host is down/firewall is blocking ping requests
+Destination Host Unreachable - Coming from the router, the route to the destination is not found
+Test DNS (Domain Name System)
+
+Pathping - Combines functionality of ping/tracert
+This will give the data path (tracert) as well as ping (ping)
+
+ARP Ping - Firewall blocking all ping request
+Uses ARP Data packets, so FIREWALL will NOT block any ping request on LAN
+So ARP ping will not work through the internet
+
+tracert - traceroute
+    -Used to note the exact path the data packet has taken
+It can isolate problems between routers
+
+Nbtstat utility - used to resolve netbios names to IP address
+    - Least used
+
+ARP - Address Resolution Protocol
+    - Used to resolve IP address to MAC addresses
+First, it'll check ARP cache
+    -You can check by arp -s
+THen it'll ask the corresponding IP address so that it can find the MAC address, and it'll store it in the ARP cache
+
+Netstat - Used to tell current network connections
+    - also tells which ports are opened
+
+Ipconfig - Network configuration
+(btw this is for command prompt...)
+ipconfig /all
+    -Displays full TCP/IP configuration
+ipconfig /renew
+    -Releases/renew IP address lease
+ipconfig /release
+    -Releases the IP address lease
+
+ifconfig - Done in unix/linux 
+    -Displays info from network interface card
+        ex) IP addres, Subnet mask, packets received/sent, any errors
+    - Can also be linked with switches
+
+Nslookup/dig
+    - Looks up DNS information
+
+
+
+
+

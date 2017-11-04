@@ -1,0 +1,33 @@
+Authentication Protocols
+In computers, authentication is a process of identifying users. There are several protocols to achieve authentication. 
+PAP - Password Authentication Protocol
+    -Very basic and useful. BUT NOT SAFE. ALL LOGIN AND PASSWORD IS NOT ENCRYPTED
+
+CHAP - Challenge Hackshake Protocol
+    - Just like PAP, but it encrypts usernames/passwords
+    - Client validation done thorugh 3 way handshake
+STEPS:
+0. Connection Made
+1. Server asks client to has the password for certain username
+2. One-way hashed password is sent back and the server checks the password.
+
+MS-CHAP - Microsoft's version of Chap
+TWO TYPES
+MS-CHAP - Basically CHAP
+MS-CHAP 2 - Both client/server are authenticated
+
+Radius - Remote Authentication Dial-In Service
+Enables a single server to handle all authentication
+Radius server makes request on the user's behalf after authentication
+Contains user access data in centralized location
+
+Kerberos Authentication
+    -Authenticates by using tickets
+    -After authentication, a client is given a ticket from the Kerberos Server. Thus, the client would get access to network resources
+
+EAP - Extensible Authentication Protocol 
+    -Extensions to PPP
+    -Supports many methods of authentication
+    -Commonly associated with Smart Cards
+
+

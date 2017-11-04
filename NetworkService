@@ -1,0 +1,43 @@
+Networking Services
+DNS - Domain Name System
+-Reserves IP addresses for Domain Name
+If you type in web domain, then DNS server will get the IP address of the domain name, transform it, and go. (It's just like a phone book)
+
+WINS - Windows Internet Name Service
+-Reserves (NetBIOS) Computer Name to IP Addresses 
+If you wanted to talk to someone on the same network, then you would do so using this server. You'll ask the server the name of the server, then WINS server would get the ip address of the name and give it to you.
+
+NAT - Network Address Transliation - Used in router
+translates set of IP addresses to another set of IP addresses.
+So making Private IP addresses to Public
+Making Public IP addresses to private
+SO if a private computer wanted to talk to the internet, then the NAT will turn the private IP address to a public IP address. If a computer wanted to talk to a computer from a private network, then the router will translate the public to private IP.
+
+PAT - Port Address Translation - Also used in router
+Translates IP addresses based on its port number. SO a private computer not only has a private IP address, but it also has a private Port number. This port number is used so that an external data packets know which computer in the private computer to talk to. 
+
+SNAT - Static Network Address Translation - Also used in router
+Just like NAT, BUT BUT BUT
+SNAT links a public IP address with a private address, PERMANENTLY
+This is useful when a computer or server needs to be accessed outside a network.
+
+Proxy - Service
+Beneficial for Speed and Bandwidth (reduces the speed of going out toe internet) and Security (reports what webpages are retrieved).
+SO what a proxy server does is when a computer visists a web page, then it'll first go thorugh the Proxy server then to the internet. When the web page comes back, the Proxy server will remember the web page and store it in the Cached Web Page Database on the Proxy Server. So when another computer goes to the page, then it'll just get the page from the Cached Web Page Database instead of going to the internet. So this definately is speedy. 
+
+RDP - Remote Desktop Protocol - Made by Microsoft
+If a computer wants to access another remote computer, then it can just type in IP address and the desktop from the remote desktop will be displayed on your computer.
+
+CSMA/CD - Carrier Sense Multiple Access with Collision Detection
+Used only for wired (ethernet) networks
+When you have alot of computers on network and they're all sending datas, then there will be collision. This will lead to loss of data. So CSMA/CD works by sensing if a cable is idle. If it is, then it'll send the data, avoiding collision. If you have two data packets collide, then the two computers that sent it will wait a random amount of time, then resend it.
+
+CSMA/CA -  Carrier Sense Multiple Access with Collision Avoidance
+Used only for wireless networks
+Similar with CSMA/CD. Computer will first send out a very small packet to make sure that the channel is clear. If it's clear, then it'll send the main data. 
+
+Broadcast - When a single transmiter of data being received by multiple receivers
+
+Unicast - Data is sent to a single destination
+Multicast - Data is sent to multiple destination AT THE SAME TIME
+

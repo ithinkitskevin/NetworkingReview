@@ -1,0 +1,44 @@
+Networking Issues
+Networks in two ways
+Wired
+Wireless
+They can be combined, as most businesses
+
+Through Media
+Copper cables - Cables can become worn out/damaged
+    -This si when shortage can happen
+Make sure to have the right kind of cable to correlate environment (Fans, air conditioner, and more can mess with the attenuation (signal))
+Media (Length of the cable)
+    - Maximum length of a cable
+    - Using right type of the network
+
+Wireless Factors
+Antenna Type
+Omni Directional Antenna 
+    - Devices can get the signal from any director the antenna is facing
+Directional Antenna
+    - Wherever you point, the signal is sent
+
+Interference - Microwave oven/wireless devices can interfere signals.
+    - You can change the channel or something. Depends on what, like buildings. wireless phones and more.
+
+Wrong Encryption
+    - Using WPA2 on your router to a computer that's only compatible to computers who can only handel WPA 
+
+DHCP Server was removed, then computers with expired IP address will have no server to send their IP Address Request
+    - Also affect when a new computers are added
+This is the only case if IP address are automatically. It would have no affect if IP address are configured statically
+
+If another DHCP server is added, then we need to mkae sure that all IP address are unique. So configure the IP Address Pool correctly
+
+DNS probelms can happen also
+
+Link LEDS (Light Emitting Diode)
+    - Simple indicators that are able to tell us information on network devices
+    - Green Led - AKA Link Light - Tells us ssuccessful Network connection
+        - If green led is off, then something bad has happened
+    - Yellow Led - Activity Light, indicates network activity
+
+
+
+

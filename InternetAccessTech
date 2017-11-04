@@ -1,0 +1,33 @@
+Internet Access Technologies
+DSL - Digital Subscriber Line - Used for broadband internet
+    - Advantage is that it can carry voice/data through DSL modem that connects to telephone power line
+    - Much faster than usual dial-up modem
+
+Few forms of DSL
+ADSL - Assymetric Digital Subscriber Line
+    - It's assymetrical since download speed is so much faster than upload speed
+    - Cheapest form of DSL
+SDSL - Symmetric Digital Subscriber Line
+    - The upload/download speeds are the same
+VDSL - Very High Bit Rate DSL
+    - Very fast form of DSL
+    - Download speed is over 50 Mbps over copper wire - BUT used for short distances
+    - For long distances, it can use fiber optic fiber
+
+Cable Broadband - Becoming popular to accessing internet
+    - Uses Cable Modem (with attached coaxial cable)
+    - Fast, with 50 Mbps average
+
+POTS/PSTN - Plain Old Telephone Service / Public Switched Telephone Network - Becoming obselete, due to slow speed...
+    -They're everywhere and cheap to use
+
+Satellite - Used where no services are provided... Also very expansive. Speed increases, 15 Mbps.
+
+Mobile Hotspot - Uses cellular tower to connect wireless devices. If there are wireless devices less than 30 feet, then the wireless devices would connect. 
+FreeStanding Device OR Your MObile Phone
+
+WiMax - WiMax covers large area - "super" wireless network that covers entire cities/countries. 
+Directly connect to ISP using T3 line. 
+    -Can potentially replace Cable/DSL
+
+Metro Ethernet - Connect business/residential users to larger network through ethernet. Simple and cheap, doesn't require any special cabling/equipment. 

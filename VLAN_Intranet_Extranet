@@ -1,0 +1,15 @@
+
+VLAN, Intranet & Extranet
+VLANS - Virtualized Local Area Network
+    -Controls network traffic regardless of physicalities of the locations
+        - By installing a virtual switch, we can seperate networks and seperate network broadcast traffic
+    -This can also happen by ports (by Vlan switch) or by the MAC address of computers
+
+Intranet - Private network belongs to an organization
+    -Behind a firewall so no one outside can access it
+
+Extranet - Private network that can be accessible from outside based on restriction
+    - Company A can access Company B
+
+
+

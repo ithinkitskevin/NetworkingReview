@@ -1,0 +1,47 @@
+Networking Tools & Safety
+Wire Crimper Tool - Used to crimp connectors to cables
+    -Used to make custom length
+Punch Down Tool - Punches down wires to a punch-down block
+Punch Down block - Electrical connection, usually used in telephony
+Media Tester -  Used to test networking cables so that they're wired correctly. 
+    - Connect both ends of the cable to this testing machine and it'll say if it works
+Cable Stripper - To get rid of the plastic surrounding of a cable, so that it can be crimped
+TDR - Time-Domain Reflector
+    -Used to test cables, suchas unshielded twisted pair/coaxial cable
+    -Transmits signal through the cable and the signal ir reflected back
+    -Pinpoints any problems like Conductors, loose connectors, shorts, crimps, bends and more
+OTDR - Optical Time-Domain Reflector
+    -Same thing as TDR, but for Optical FIber
+    -Transmits light
+Multimeter - measures electricity
+    -Comes in analog/digital
+Butt Set - Resembles a telephone
+    - Test/monitors telephone line
+    - Hears into conversation
+Voltage Event Recorder - Device used to collect data about quality of electrical power
+    - Comes with software
+Tone Generator 
+    -Used to isolate cables Locates cables one end to another
+    - if you suspect a bad wire from a group, you'll insert one end of a tone generator to the bad wire and detect it using the tone sensor
+Protocol Analyzer - Packet Sniffer ;D
+Software/Hardware tool used to troubleshoot/analyze traffic on network
+    -like logs, data packets, broadcasts
+    -detects network problems, intrusion attems, and monitors networking issues
+    ex) Wireshark
+Antivirus software - Detects viruses on computer and gets rid of it
+ESD - Electrostatic Discharge - A damage...
+    -Happens when you shock a computer part. A sudden charge will hurt your computer component
+    -Make sure to wear ESD Wrist Strap
+    -Or work on a ESD mat, which will remove any electrical charge
+MSDS - Material Safety Data Sheet
+    - Computer can contain lead/mercury that will be harmful to environment
+
+SAFETY TIPS
+Always make sure to turn off power/unplug power cable
+Remove hand jewerly, as they can conduct electricity
+Take note where fire extinguisher and use it when fire happens (Class 'C' Fire Extinguisher)
+Cable Management
+    - Avoiding triping hazard - Just relocate or tape down...
+
+
+

@@ -1,0 +1,34 @@
+Security Protocols
+IPSec - Internet Protocol Security
+    - Works at the network layer to encrypt data when communication is happening. Both sender/receiver must share the same key, as the public key lock/unlocks data. This is to prevent data tampering. Verifys that data is received as exactly as what it was sent
+Has two mode
+Tranport Mode - Message portion is encrypted
+Tunnel Mode - Entire packet is encrypted
+
+L2TP - Layer 2 Tunneling protocol
+    - Combination of Cisco's Layer 2 forwarding/PPTP
+    - Authenticates both computer/user
+        This is to prevent Man in the Middle attack
+
+SSL - Secure Sockets Layer
+Protocol that proves security on the internet
+https://
+Provides security in three ways
+1. Authenticates the server
+2. Authenticates the client
+3. Encrypts the data
+
+TLS - Transport Layer Security
+Successor to SSL
+Authenticates the server/client and encrypts the data
+But it's also made up of 2 layers
+TLS Record Protocol - Provides connection security by making sure connection is private/reliable
+TLS Handshake Protocol - Allows server/client to authenticate each other and negotiates encryption algorithm/cryptographic key before sending data
+- Goal is to make sure SSL is more secure
+
+802.1x - Used for both wired/wirelesss networks
+Controls network access by ports
+It's a port based authentication that will close if authentication fails, but opens if authentication is verified
+
+
+

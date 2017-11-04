@@ -1,0 +1,48 @@
+Remote Access Protocols & Services
+RAS - Remote Access Service - Service that enables you to connect to a computer from a remote location
+    -Originally developed by Microsoft and Built into their Network.
+    -Works with alot of major Network Protocols 
+        ex) TXP/IP, NetBeul, IPX/SPX
+
+SLIP - Serial Line Internet Protocol - Designed so data can transmit over erial port and modem connections
+    -Rarely used since it' not secure. NOT ENCRYPTION/AUTHENTICATED
+    -Uses only TCP/IP Protocol
+
+PPP - Point-to-Point Protocol
+    -Replaces SLIP in every way - Supports encryption/authentication
+    -The standard remote access protocol used today
+PPPoE - Point-to-Point PRotocol over ethernet
+    -Uses PPP over ethernet
+    -Encapsulates PPP frames in Ethernet Frames
+    -DSL,Cable Modems, Wireless connection
+    -Used for connecting multiple users on LAN to a remote site sharing common device
+
+PPTP - Point-to-Point Tunneling Protocol
+    -Used for creating VPN (Virtual Private Network)
+    -Ensures data transfer is secure by creating a secure tunnel
+
+GRE - Generic Route Encapsulation
+    - Used with PPTP in creation of a VPN network
+    - Creates tunnel in PPTP
+    - Encapsulates data in secure manner
+
+VPN - Virtual Private Network 
+    -Uses public network (to establish remote connection)
+    -Encrypts data when sending/decrpyting data
+    -Provides dedicated link between two points over network
+
+VPN Concentrator - Device that creates VPN connections and manages delivery of message  
+    -Device for creating VPN connections, does everything VPN does, BUT not really a neccesity... Used for organizations that uses a lot of VPN
+
+VPN Site-to-Site
+    - Requires two VPN Devices on both end, with the internet in the middle.
+
+VPN Host-to-Site
+    - Requires only One VPN only at the Site side. 
+    - Connecting to office when you're at a different location, you can use this.
+    - You don't need anything
+
+VPN Host-to-Host
+    - VPN connection. Don't need two hardware VPN devices. BUT you do need a software.
+
+

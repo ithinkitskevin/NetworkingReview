@@ -1,0 +1,48 @@
+Routing Protocols
+Collect information about the current network status and map out best path for data packets to take to their specific destniation.
+
+Loopback Interface - Fake or Virtual interface created on a router. It's not real, but it is assigned an IP address of your (choosing). This protocol is used for testing/administration purposes only. 
+
+Routing Table - File that contains set of rules that shows information on what data packet takes to its destination
+-Forwards the data packet along the best path to its destination
+A basic routing table contains
+    Network Destination: The IP address of the final destination
+    Subsnet Mask: Determines what part of the IP address is the host or network portion
+    Gateway: Tells the router which private IP address the data packet should be forwarded to
+    Interface: Outgoing IP address of the sending device
+    Next Hop: Ip address to which IP address is forwarded to
+    Metric: Determines the best route among multiple destinations
+
+Going back to routing protocols, there are three different types of routing protocols. 
+Distance Vector- Factors in distance based on how many hops (which is how many routers it takes). 
+    RIP V1.0 - Routing Information Protocol (old)
+        -Routers that uses RIP will broadcast their routing information to every other routers evert 30 seconds, regardless of changes in routing information
+        -But RIP V1.0 created alot of unneccessary traffic.
+    RIP V2.0 - This version of RIP was used to solve problems of broadcast traffic
+    BGP - Border Gateway Protocol - Standard routing protocol
+        - This is based on Paths and policies
+Link State - Used by routed to share information, in which the best path on a network is independently mapped out
+    OSPF - Open Shortest Path First
+        -Routing protocol used to determine the correct route for data pacekts to take to their destination. Collects information from other routers using IP and creates a topology of the map
+    IS-IS - Intermediate System to Intermediate System
+        -Routers are organized into a domain/groups
+        -Functions within these domains
+        -Uses CLNS (ConnectionLess Network Service) to communicate to other routers
+
+Hybrid - Combination of Distance Vector and Link State Protocols
+    EIGRP - Enhanced Interior Gateway Routing Protocol
+        Only runs on Cisco Routers
+        -Fast, les overhead, and supports many network layer protocols
+
+SIP - Session Initiation Protocol
+    - Establishes Communcation sessions over the internet
+    VoiP - (Voice over internet Protocol)
+        - Term that is used for voice communications over IP networks
+        - Used for Instant Messaging/Conferencing Services
+        -Operates at the Application Layer
+
+RTP - Real-Time Transport Protocol 
+    - Internet standard for transporting real-time data like streaming audio/video
+    Used over UDP (doesn't guarantee data delivery) and RTCP (Real-time Transport Control Protocol - Enables you to monitor the quality of data being delivered)
+    - Send both unicast/multicast
+

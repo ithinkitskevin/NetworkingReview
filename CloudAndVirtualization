@@ -1,0 +1,53 @@
+Cloud & Virtualization
+Virtualization - Traditional way business operates
+    - Using servers such as Database, Web Server, Email and so on.
+    - These servers can be running different OS (like Windows, Solaris, Linux)
+    - Expansive... SO THIS IS WHERE VIRTUALIZATION HAPPENS
+Virtualization is consolidating all the different servers, and making them into one single server. Virtualization will run different OS, servers, and it'll run like there are multiple servers. This saves money, for both maintance, spaces, and more. 
+
+There are Virtual Switches
+    - Does what switches do, allow servers to talk to one another
+    - This switch will allow database to talk to web server...
+There is also virtual router
+    - Route data packets from the servers to internet
+There is also Virtual Firewall
+    - Monitors traffic, and do whatever firewall does
+
+Cloud Computing
+Refers to data/Applications being sored/run on remote servers rather than being on your local computers
+    -Run via through internet
+    - Now you can have a company run your email servers and host your email servers for you
+        -Like Gmail
+        -Productivity Servers/ Web Servers/ Database
+
+Three types of Cloud Computing
+IAAS - Infrastructure as a Service
+PAAS - Platform as a Service
+SAAS - Software as a Service
+Up to the user to see what suits to their need...
+
+IAAS - Manage portion of all your hardware
+3rd Party will handle your Servers, storage, virtualization, networking. 
+You will have control over Application, data, OS, middleware, runtimeex) Amazon Web Service
+
+PAAS - Manage portion of all your hardware but some of the software
+3rd Party will handle your Servers, storage, virtualization, networking, and everything IAAS 3rd party did... BUT it also controls the Operating System, Middleware, and Runtime
+You will only control Application/Data
+ex) Microsoft Azure
+
+SAAS - Common - Everything is controled by the 3rd Party. You just access and run the application when you go to 3rd party
+You will control the application
+3rd Party will control Servers, storage, virtualization, networking, Operating System, Middleware, runtime, application, data
+
+NAS - Network Attached Storage - For containing your datas in a centralized zone, so that anyone in the network can access to it. 
+    -Doesn't do anything else besides sotring data
+    -Will have multiple hard drivesin RAID (Reduandant Array of Independant Disks) configuration. So it'll have multiple hard drives in one logical unit for either data redundancy or performance improvement.
+
+SAN - Storage Area Network - Special, high speed network for storing/providing data. Servers access this data as if it was a local hard drive
+    - They are not limited by a single server, but rather alot of servers
+    - Easily expandable/redundant - Data is shared among several disk arrays. 
+    - Interconnected by Fibre Channel (2000 Mbit/s)
+    - Alternate to Fiber Channel -ISCSI - Internet Small Computer System Interface - Data storage protocol that transports ISCSI request through TCP/IP 
+
+
+

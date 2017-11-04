@@ -1,0 +1,27 @@
+Ports
+When data is sent over internet, computers need to learn how to accept the datas. The computers accepts datas through ports.
+Categorized by 2 protocols, TCP/UDP...
+Connection used by programs to exchange information
+Ports range from 0 to 65535
+HTTP - Port 80 - Logging into webpages
+HTTPS - Port 443 - Logging into secure webpages
+NetBIOS - Port 137-139 - Network Basic Input/Output System - Provides services related to session layer of OSI model. So allows application on different computers to communicate within LAN
+POP - Port 110 - Used for retrieving emails
+IMAP - Port 143 - Synchronize emails
+SMTP - Port 25 - Send mail
+SIP - Port 5060/5061 - Session Initiation Protocol - Signaling/controlling multimedia sessions in internet telephony for video/voice calls
+MGCP - Port 2427/2727 - Media Gateway Control Protocol - Handling signaling and session management during multimedia conference
+H.323 - Port 1720 - Provide audio-visual communication sessions on any packet network
+SIP vs MGCP vs H.323
+H.323 is the most mature among these multimedia protocols
+FTP - Port 20/21 - File transfer
+SNMP - Port 161 - Network management
+SSH - Port 22 - secure shell
+TELNET - Port 23 - useless
+DNS - Port 53 - Domain Name Server - Server that associates various information with domain name
+DHCP - Port 67/68 - distribute network configuration parameters (IP address and such)
+TFTP - Port 69 - transferring files using UDP
+SMB - Port 445 - Server Message Block - Proving shared access to file,printers, such. 
+RTP - Port 5004/5005 - Real-time Transport Protocol - Provides end-to-end network transport functions for real-time data.
+
+

@@ -1,0 +1,40 @@
+WAN technologies
+Packet - Data is divided into small data packets and sent
+Two types of ways packets are sent
+Packet Switching - Data packets take different routes to the destination, and when they are all in the destination, they are grouped back (connectionless)
+Circuit Switching - Sends data packets differently, but in the same dedicated route. Like telephone lines.
+
+ISDN - Integrated Services Digital Network
+    - Significant speed improvement of speed, compared to 56 Kbps modem.
+    - Standard for digital transmission over ordinary telephone line
+    - ISDN sends data over 128 Kbps
+Never caught on due to DSL/Cable
+
+T1 Line - T Carrier Level 1 - Commonly used internet service for Businesses today
+    - 1.544 Mbps - consists of 24 inidividual channes with 64 Kbps each
+    - Each cable can contain data/voice
+
+T3 Line - T Carrier Level 3 - High speed
+    - Speed is 43 Mbps
+    - consists of 672 individual channels with 64 Kbps each
+    - Mainly used by ISPs that connects directly to the backbone of the internet
+
+E1 Line - Format used in Europe 
+    - 2 Mbps - 32 channels of 64 Kbps
+
+E3 Line - Format used in Europe (like T3)
+    - 34 Mbps - Fewer channels
+
+OCx - Optical Carrier
+    - Describes the speed of networks through SONET (Synchronous Optical Network)
+    - It's a fiber-optic tech that can deliver voice, data, video at high speeds
+    - OC levels are at 51.84 Mbps
+
+Levels of OC Level (you can get the speed by multiply it my 51.84)
+OC-1
+OC-3 - 155.52 Mbps
+OC-12 - 622.08 Mbps
+OC-24 - 1.244 Gbps
+OC-48 so on
+OC-192
+

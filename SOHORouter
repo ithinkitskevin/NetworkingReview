@@ -1,0 +1,29 @@
+SOHO Routers
+Small Office/Home Office Routers
+Used by homes/small businesses
+To set up SOHO Routers, you need to go to the web page to configure by typing in the router's address in the web page
+DHCP servers are built into it, which will automatically assign IP addresses to computers
+You can set up SSID (Service Set Identifier), which is the IP address name
+Computers will see the SSID broadcast and will join the router if authentication is verified
+Channel - Used to avoid interference between other networks
+WEP - Wired Equivalent Privacy
+    - Provides security for wireless networks (But failed and that 40 bit encryption is easily hackable)
+WPA - WI-FI Protected Access
+    -Better than WEP. Uses Stronger Encryption method using TKIP (Temporal Key Integrity Protocol - dynamically changes key when used) as well as EAP (Extensible Authentication Protocol) which verifies authorized network users
+WPA2 - WI-FI Protected Access
+    - Stronger security by using CCMP (Counter Cipher Mode w. Block Chaining Message Authenticaion Code Protocol)
+WPS - WI-FI Protected Setup
+    -Makes it easy for users with no knowledge of networking to set up secure network
+MAC Filter - Filters out MAC addresses. Block out or allow any devices with certain MAC address
+DMZ - Demilitarized Zone
+    -Allows designated computers to be fully exposed to the internet by having router forward all ports at the same time to the DMZ computer. 
+    - It's also outside the firewall
+    - Used typically for testing purposes, so you can pinpoint (ex) firewall weakness
+        - DMZ must be assigned a static IP address
+Port Forwarding - When someone outside wants to access your computer using (ex) RDP (Remote Desktop Protocol). Then they'll RDP your public IP address to the port of RDP (3389 in this case) as well as the private IP address.
+Guest Network - Built to many routers
+-Seperate wireless network that's built into a wireless router
+Has its own SSID and usually has -Guest as prefix
+
+
+

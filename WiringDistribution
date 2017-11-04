@@ -1,0 +1,40 @@
+Wiring Distribution
+66 Block - Punchdown block where wires are inserted
+        -They are inserted using a punchdown tool. Outdataed/not used much
+110 Block - Modern day punch down block
+    -Supports higher frequencies as well as using less space
+    -Meets the standard that is needed for category 5 UTP Cable
+Patch Panel - Panel with multiple cable connections
+    - Connects incoming/outgoing patch cables (routing) in LAN
+    - Convient for Network Administrator to rearrange/arrange network
+Demarc - Point where a customer's network equipment meets with service provider's network equipemnts
+    - Defines the service provider's responsibility for their equipments ends and where customer's responsibility for their equipments begins
+        - If demarc needs to be extended further to customer's range, than this is called demarc extension
+
+Smart Jack - NID/Nework Inerface Unit
+    -Terminate the T carrier wires at customer's building
+    -Checks for issues using LEDs
+
+Veroizon & Horizontal Cross Connects
+    - Refers to points in a building where cables/wires connect together
+    - Either horizontaly (thorugh a room) or vertically (floors)
+
+25 Pair
+    - Has 25 pairs of smaller wires inside a wire
+    - Wires are color coded and uniquely colored
+
+100 Pair 
+    - Has 100 pairs of smaller wires. Used for larger industrial jobs
+    - Each pair is uniquely colored
+
+MDF - Main Distribution Frame
+    - Main Wiring frame that is used to distribute points for all wiring in a building
+    - External/Internal circuits meet
+
+IDF - Intermediate Distribution Frame
+    - Smaller distribution frames located in various location. Provides better flexibility to distribute wires to main distribution frame
+
+
+
+
+

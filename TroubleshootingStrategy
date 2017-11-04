@@ -1,0 +1,27 @@
+Troubleshooting Strategy
+1. Identify Symptoms/potential causes
+    -Gather info about problem
+    - What's the problem/ when problem occur/ what the problem is/ error message/ Does the problem happen all the time/intermittenly
+    - Get all the information of the broblems
+2. Identify affected area
+    - Is the problem isolated/spread accross several locatoin
+    - is the problem affects everyone
+        - So check switch
+    - If problem is isolated
+        - Check individual cable
+3. Establish what has changed
+    - Problem doesn't change randonly
+        So, examples are... Did anything change just prior to the problems happening, was any hardware added/removed, software installed/uninstalled, anything downloaded from the internet
+4. Select the most plausible cause
+    - Look for simple solutions first, does the device have power, cables plugged in, check the LEDs
+5. Implement an action plan/solutions including potential effects
+    -THE MOST CAUTIOUS PHASE
+    - Must know what effect the action will have on the network/ will it affect entire network or isolated at one area
+6. Test the Result
+    - Take actions to solve the problem
+    - Where you willl know if your plan of action will truly solve the problem or not
+7. Has your plan of action solved the problem or not. 
+    - What effect did it have on everyone else?
+    - Do the results show temporary fix/permanent one
+8. Document solution/process
+    - document the problems/solutions.

@@ -1,0 +1,28 @@
+Network Types
+PAN - Personal Area Network - Uses for personal network, connects small wireless devices, laptops and such to each other using bluetooth. Used for small data transport
+
+LAN - Local Area Ntwork - Connects servers, computers and such in the same building. In close proximity to each other. 
+    ex) Ethernet using switch
+
+MAN - Metropolitan Area Network - Spans several buildings, towns and connected using High speed like Fiber Optic
+
+WAN - Wide Area Network - Covers large area like country,continent, globe
+    ex) internet
+
+SCADA/ICS - Supervisory Control And Data Acquisition - Controlling/monitoring equipments that is used in industrial  facilities (like power plants, water treatment plants, refineries)
+    -Communicates sensors/systems in real time, and sends in to PLCs (Programmable Logic Controllers) and RTUs (Remote Terminal Units) which sends it to SCADA to be analyzied.
+    -Used for reducing waste, improving efficiency, and reporting any problems
+    -AKA ICS (Industrial Control System)
+
+GSM & CDMA - Radio System
+    -Global Systems for Mobiles (GSM) - Largest radio system that is being used around the world
+        -Used for multiple access to a one radio station
+        -Changes voice into digital form, which is then assigned a time slot. Then the slot puts the call together
+    -CDMA - Code Division Multiple Access - Not as widely used
+        -Used for multiple access to a one radio station
+        -Like verizon...
+        -Encodes data
+
+4G LTE - 100 Mbps - Fasted wireless communication (Long Term Evolution)
+3G - 384 Kbps - 2 Mbps
+EDGE - SLOW, Enhanced Data Rates for GSM Evolution
